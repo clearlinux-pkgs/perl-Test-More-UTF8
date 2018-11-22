@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-More-UTF8
 Version  : 0.05
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/M/MO/MONS/Test-More-UTF8-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MO/MONS/Test-More-UTF8-0.05.tar.gz
 Summary  : 'Enhancing Test::More for UTF8-based projects'
@@ -65,7 +65,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/Test/More/UTF8.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Test/More/UTF8.pm
 
 %files dev
 %defattr(-,root,root,-)
