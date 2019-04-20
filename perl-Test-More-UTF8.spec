@@ -4,10 +4,10 @@
 #
 Name     : perl-Test-More-UTF8
 Version  : 0.05
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/M/MO/MONS/Test-More-UTF8-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MO/MONS/Test-More-UTF8-0.05.tar.gz
-Summary  : 'Enhancing Test::More for UTF8-based projects'
+Summary  : Enhancing Test::More for UTF8-based projects
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -23,6 +23,7 @@ use Test::More::UTF8;
 Summary: dev components for the perl-Test-More-UTF8 package.
 Group: Development
 Provides: perl-Test-More-UTF8-devel = %{version}-%{release}
+Requires: perl-Test-More-UTF8 = %{version}-%{release}
 
 %description dev
 dev components for the perl-Test-More-UTF8 package.
