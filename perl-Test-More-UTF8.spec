@@ -7,7 +7,7 @@
 #
 Name     : perl-Test-More-UTF8
 Version  : 0.05
-Release  : 34
+Release  : 35
 URL      : https://cpan.metacpan.org/authors/id/M/MO/MONS/Test-More-UTF8-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MO/MONS/Test-More-UTF8-0.05.tar.gz
 Summary  : 'Enhancing Test::More for UTF8-based projects'
